@@ -1,0 +1,36 @@
+    .writing {
+        min-height:141px;
+    }
+    .type{
+        font-size: 35px;
+        font-family: var(--baloo);
+        color: #03A9F4;
+    }
+    .cursor{
+        color: black;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: none;
+        animation: cursor linear 1.9s infinite;
+    }
+    #cur{
+        color: black;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: none;
+    }
+
+    @keyframes cursor{
+        0%{
+            color: transparent;
+        }
+        25%{
+            color: black;
+        }
+        50%{
+            color: transparent;
+        }
+        100%{
+            color: black;
+        }
+    }
